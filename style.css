@@ -1,0 +1,105 @@
+/* Réinitialisation des styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5em;
+  word-wrap: break-word;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+/* Boîte modèle pour inclure les bordures dans la largeur et la hauteur */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Styles du header */
+.header {
+  background-image: url("image/header-colore.jpg");
+  background-color: #333;
+  color: #0a0a0a;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Styles pour la mise en page avec les colonnes */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/*style pour le milleu de page*/
+.millieu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* Colonne de gauche */
+.left-column {
+  flex-basis: 40%;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Colonne de droite */
+.right-column {
+  flex-basis: 55%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les sections de gauche */
+.left-column h2 {
+  margin-top: 0;
+}
+.detail ul {
+  list-style-type: none;
+  padding: 12px;
+}
+.left-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-column ul li {
+  margin-bottom: 10px;
+}
+
+/* Styles pour les sections de droite */
+.right-column h2 {
+  margin-top: 0;
+}
+
+.experience {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.formation {
+  margin-bottom: 20px;
+}
+.educations {
+  margin-top: 42px;
+}
+.layout-main {
+  margin-top: 30px;
+}
+.title {
+  background-image: url("image/header-colore.jpg");
+}
